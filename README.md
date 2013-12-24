@@ -2,7 +2,7 @@
 ---
 #####Still in production 
 Todo:
-* Currently using http://www.with.org/tao_te_ching_en.pdf for source, but want to switch to Stephen Mitchell translation: http://acc6.its.brooklyn.cuny.edu/~phalsall/texts/taote-v3.html
+* Finish formatting the translation from ```tao.txt```.
 * Is there a more efficient way to make a string of all of the excerpts?
 
 ---
