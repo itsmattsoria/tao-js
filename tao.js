@@ -110,7 +110,7 @@ var passages = [
 "When the Master governs, the peopleare hardly aware that he exists.",
 "Next best is a leader who is loved. Next, one who is feared. The worst is one who is despised.",
 "If you don't trust the people, you make them untrustworthy.",
-"The Master doesn't talk, he acts. When his work is done, the people say, "Amazing: we did it, all by ourselves!"",
+"The Master doesn't talk, he acts. When his work is done, the people say, 'Amazing: we did it, all by ourselves!'",
 "When the great Tao is forgotten, goodness and piety appear.",
 "When the body's intelligence declines, cleverness and knowledge step forth.",
 "When there is no peace in the family, filial piety begins.",
