@@ -3,10 +3,8 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,100italic,100,400italic,300italic,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -14,13 +12,20 @@
   </head>
 
   <body>
-    <div id="container">
-      <div class="inner">
+    <div class="container">
 
         <header>
           <h1>Tao.js</h1>
           <h2>A javascript plugin that displays a different excerpt from the Tao Te Ching on every page load.</h2>
         </header>
+
+        <section class="example">
+          <blockquote id="tao">
+            <footer>
+              <cite>- Laozi -</cite>
+            </footer>
+          </blockquote>
+        </section>
 
         <section id="downloads" class="clearfix">
           <a href="https://github.com/poopsplat/tao-js/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
@@ -31,60 +36,43 @@
         <hr>
 
         <section id="main_content">
-          <h4>
-<a name="taojs" class="anchor" href="#taojs"><span class="octicon octicon-link"></span></a>Tao.js</h4>
+          <p>No jQuery needed, just include <code>tao.js</code> in your project folder, and add it to your site:</p>
 
-<p>No jQuery needed, just include <code>tao.js</code> in your project folder, and add it to your site:</p>
+          <pre><code>&lt;script src="js/tao.js"&gt;&lt;/script&gt;
+          </code></pre>
 
-<pre><code>&lt;script src="js/tao.js"&gt;&lt;/script&gt;
-</code></pre>
+          <p>And add an element with the id <code>tao</code>.  </p>
 
-<p>And add an element with the id <code>tao</code>.  </p>
+          <p><strong>Example</strong>:</p>
 
-<p><strong>Example</strong>:</p>
+          <pre><code>
+&lt;blockquote id="tao"&gt;
+  &lt;footer&gt;
+    &lt;cite&gt;- Laozi -&lt;/cite&gt;
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+          </code></pre>
 
-<pre><code>&lt;blockquote id="tao"&gt;
-    &lt;footer&gt;
-      &lt;cite&gt;- Laozi -&lt;/cite&gt;
-    &lt;/footer&gt;
-  &lt;/blockquote&gt;
+          <p>That's it.</p>
 
-</code></pre>
+          <p>If you have suggestions or improvements, please fork and/or submit a pull request. :)</p>
 
-<p>That's it.</p>
+          <hr><h4>
+          <a name="todo" class="anchor" href="#todo"><span class="octicon octicon-link"></span></a>Todo:</h4>
 
-<p>If you have suggestions or improvements, please fork and/or submit a pull request. :)</p>
+          <ul>
+          <li>Is there a more efficient way to make a string of all of the excerpts?</li>
+          </ul><hr><h4>
+          <a name="credits" class="anchor" href="#credits"><span class="octicon octicon-link"></span></a>Credits</h4>
 
-<blockquote>
-<p>Do your work, then step back. The only path to serenity.</p>
-</blockquote>
-
-<hr><h4>
-<a name="todo" class="anchor" href="#todo"><span class="octicon octicon-link"></span></a>Todo:</h4>
-
-<ul>
-<li>Is there a more efficient way to make a string of all of the excerpts?</li>
-</ul><hr><h4>
-<a name="credits" class="anchor" href="#credits"><span class="octicon octicon-link"></span></a>Credits</h4>
-
-<p>The excerpts were taken from the translation of the Tao Te Ching by <a href="http://stephenmitchellbooks.com/translations-adaptations/tao-te-ching/">Stephen Mitchell</a>, and all rights to the text belong to him. I highly recommend that you <a href="http://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Daps&amp;field-keywords=tao%20te%20ching%20stephen%20mitchell&amp;sprefix=tao+te+ching+stephen+%2Caps&amp;rh=i%3Aaps%2Ck%3Atao%20te%20ching%20stephen%20mitchell">purchase your own copy</a>. You'll be happy you did.</p>
-        </section>
-
-        <section id="example">
-          <blockquote id="tao">
-            <footer>
-              <cite>- Laozi -</cite>
-            </footer>
-          </blockquote>
+          <p>The excerpts were taken from the translation of the Tao Te Ching by <a href="http://stephenmitchellbooks.com/translations-adaptations/tao-te-ching/">Stephen Mitchell</a>, and all rights to the text belong to him. I highly recommend that you <a href="http://www.amazon.com/s/ref=nb_sb_noss_1?url=search-alias%3Daps&amp;field-keywords=tao%20te%20ching%20stephen%20mitchell&amp;sprefix=tao+te+ching+stephen+%2Caps&amp;rh=i%3Aaps%2Ck%3Atao%20te%20ching%20stephen%20mitchell">purchase your own copy</a>. You'll be happy you did.</p>
         </section>
 
         <footer>
           Tao.js is maintained by <a href="https://github.com/poopsplat">poopsplat</a><br>
           This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
         </footer>
-
         
-      </div>
     </div>
     <script src="tao.js"></script>
   </body>

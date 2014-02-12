@@ -11,10 +11,10 @@ And add an element with the id ```tao```.
 **Example**:
 ```
 <blockquote id="tao">
-    <footer>
-      <cite>- Laozi -</cite>
-    </footer>
-  </blockquote>
+  <footer>
+    <cite>- Laozi -</cite>
+  </footer>
+</blockquote>
 
 ```
 
