@@ -1,9 +1,12 @@
 ###Tao.js
----
 
 A javascript plugin that displays a different excerpt from the Tao Te Ching on every page load.  
 
-No jQuery needed, just include ```tao.js``` on your site, and add an element with the id ```tao```.  
+No jQuery needed, just include ```tao.js``` in your project folder, and add it to your site:
+```
+<script src="js/tao.js"></script>
+```
+And add an element with the id ```tao```.  
 
 **Example**:
 ```
@@ -14,10 +17,19 @@ No jQuery needed, just include ```tao.js``` on your site, and add an element wit
   </blockquote>
 
 ```
+
+That's it.
+
+If you have suggestions or improvements, please fork and/or submit a pull request. :)
+
+> Do your work, then step back. The only path to serenity.
+
 ---
+
 ####Todo:
 
-* Is there a more efficient way to make a string of all of the excerpts?
+- Is there a more efficient way to make a string of all of the excerpts?
+
 ---
 
 ####Credits
