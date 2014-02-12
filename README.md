@@ -18,11 +18,13 @@ And add an element with the id ```tao```.
 
 ```
 
+
 That's it.
 
 If you have suggestions or improvements, please fork and/or submit a pull request. :)
 
 > Do your work, then step back. The only path to serenity.
+
 
 ---
 
@@ -31,6 +33,7 @@ If you have suggestions or improvements, please fork and/or submit a pull reques
 - Is there a more efficient way to make a string of all of the excerpts?
 
 ---
+
 
 ####Credits
 
