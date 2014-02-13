@@ -63,6 +63,39 @@ body {
   max-width: 800px;
 }
 
+.example {
+  padding: 2em;
+  margin: 4em 0;
+}
+
+#tao p {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.refresh {
+  color: #444;
+  padding: 1em;
+  margin-top: 2em;
+  display: inline-block;
+}
+
+.refresh:hover, .refresh:focus, .refresh:active {
+  background: rgba(0,0,0,0.10);
+}
+
+#downloads a {
+  color: #444;
+  margin: 1em;
+  padding: 1em;
+  font-weight: 400;
+  display: inline-block;
+}
+
+#downloads a:hover, #downloads a:focus, #downloads a:active {
+  background: rgba(0,0,0,0.10);
+}
+
 /* COMMON STYLES */
 
 hr {
@@ -115,7 +148,12 @@ h2 {
   font-size: 1rem;
   font-weight: 400;
   margin-bottom: 4rem;
-} 
+}
+
+h4 {
+  font-weight: 400;
+  margin-bottom: 1em;
+}
 
 p {
   font-weight: 300;
@@ -129,16 +167,6 @@ a {
 
 p a {
   font-weight: 400;
-}
-
-blockquote {
-  margin: 1em 0 4rem;
-  font-weight: 100;
-}
-
-blockquote p {
-  font-size: 2rem;
-  font-weight: 100;
 }
 
 ul li {
